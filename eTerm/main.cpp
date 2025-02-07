@@ -56,6 +56,7 @@ int main() {
         cout << "'term - shows terminal information." << endl;
         cout << "'help' - shows a list of commands." << endl;
         cout << "'clear' - clears the terminal." << endl;
+        cout << "'out' - signs out of eTerminal." << endl;
         cout << "'linux' - changes the style of the terminal to a Linux terminal." << endl;
         cout << "'echo [string]' - prints the string inputted." << endl;
         cout << "'exit' - exits the terminal." << endl;
@@ -67,6 +68,9 @@ int main() {
         goto end;
     } else if (command == "") {
         goto terminal;
+    } else if (command == "out") {
+        cout << "It's sad to see you go..." << endl;
+        goto login;
     } else if (command == "linux") {
         cout << "Type 'term' to go back to the default style." << endl;
         goto linuxterm;
