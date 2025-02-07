@@ -11,8 +11,10 @@
 ### Linux
 1. Edit your bash configuration file: `nano ~/.bashrc`
 2. Paste this near the bottom:
-`alias runcpp='g++ -std=c++23 main.cpp -o output && ./output'
-alias eterm='cd ~/Documents/eTerm && runcpp'`
+```
+alias runcpp='g++ -std=c++23 main.cpp -o output && ./output'
+alias eterm='cd ~/Documents/eTerm && runcpp'
+```
 6. Save: Ctrl+O, then Enter.
 7. Exit: Ctrl+X\
 ### MacOS
