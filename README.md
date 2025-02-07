@@ -7,7 +7,8 @@
 ## Setup
 1. Download the `eTerm` folder (download from releases).
 2. Move the `eTerm` folder into your `Documents` folder.
-3. ***Optional: setup an alias that will run eTerminal with `eterm`.*** If this gets too complicated, run the code with `g++ -std=c++23 main.cpp -o output && ./output` every time (or at least on Linux. Not sure about Windows or Mac, though Mac is again probably very similar.).
+3. Extract the ZIP file and delete the archive.
+4. ***Optional: setup an alias that will run eTerminal with `eterm`.*** If this gets too complicated, run the code with `g++ -std=c++23 main.cpp -o output && ./output` every time (or at least on Linux. Not sure about Windows or Mac, though Mac is again probably very similar.). **Note: you must be in the directory containing the main.cpp file. If you moved it to Documents, your path would be `~/Documents/eTerm`, which you can enter with `cd ~/Documents/eTerm`.
 ### Linux
 1. Edit your bash configuration file: `nano ~/.bashrc`
 2. Paste this near the bottom:
