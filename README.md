@@ -6,7 +6,7 @@
 - GCC
 - Linux =) I don't know if I will ever add Windows or MacOS support.
 **Setup**
-1. Download the `eTerm` folder.
+1. Download the `eTerm` folder (download from releases).
 2. Move the `eTerm` folder into your `Documents` folder.
 3. Edit your bash configuration file: `nano ~/.bashrc`
 4. Paste this near the bottom:
@@ -16,5 +16,5 @@ alias eterm='cd ~/Documents/eTerm && runcpp'`
 6. Exit: Ctrl+X
 
 Now you can type `eterm` at any time to access eTerminal!
-Feel free to move the `main.cpp` file outside of the eTerm folder (since GitHub will generate it's own folder anyway) and update the aliases in `~/.bashrc` accordingly.
+Feel free to move the `main.cpp` file outside of the eTerm folder (since GitHub will generate it's own folder anyway if you download the ZIP or clone the repo) and update the aliases in `~/.bashrc` accordingly.
 **Again, this project is not meant to be taken seriously. You have been warned.**
