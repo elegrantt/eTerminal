@@ -7,17 +7,17 @@
 ## Setup
 1. Download the `eTerm` folder (download from releases).
 2. Move the `eTerm` folder into your `Documents` folder.
-3. ***Optional: setup an alias that will run eTerminal with `eterm`.*** If this gets too complicated, run the code with `g++ -std=c++23 main.cpp -o output && ./output` every time (or at least on Linux. Not sure about Windows or Mac, though Mac is again probably very similar.).\
+3. ***Optional: setup an alias that will run eTerminal with `eterm`.*** If this gets too complicated, run the code with `g++ -std=c++23 main.cpp -o output && ./output` every time (or at least on Linux. Not sure about Windows or Mac, though Mac is again probably very similar.).
 ### Linux
-1. Edit your bash configuration file: `nano ~/.bashrc`\
-2. Paste this near the bottom:\
+1. Edit your bash configuration file: `nano ~/.bashrc`
+2. Paste this near the bottom:
 `alias runcpp='g++ -std=c++23 main.cpp -o output && ./output'
-alias eterm='cd ~/Documents/eTerm && runcpp'`\
-6. Save: Ctrl+O, then Enter.\
+alias eterm='cd ~/Documents/eTerm && runcpp'`
+6. Save: Ctrl+O, then Enter.
 7. Exit: Ctrl+X\
 ### MacOS
-It should be similar to Linux, but just use "bash" before every command, since Zsh is the default Shell.\
+It should be similar to Linux, but just use "bash" before every command, since Zsh is the default Shell.
 ### Windows
-1. Look up how to create an alias in PowerShell or Command Prompt.\
-2. Follow the steps above but instead replace what is needed with the Windows version.\
-   You're on you're own from now :)\
+1. Look up how to create an alias in PowerShell or Command Prompt.
+2. Follow the steps above but instead replace what is needed with the Windows version.
+   You're on you're own from now :)
